@@ -21,7 +21,7 @@ app.get('/', function(req, res) {
     res.send("Hi, I am a chatbot")
 })
 
-token = "EAADujaO0AlkBAJYd5Si2aWeDFrV2yVRhs7AgZAWoV4UpBLJQsO1EhBMi4fyBnJqZCxQvbZBve6KTiy9ZB2risnVXdR5TUO0fiUOGPkdfeMNtOoQhYwcY92t1z1ioEhq35cFRh03oZC8Tc7IuE5ZAt0xDTWJEhpIrWUUeF0Mak2hgZDZD"
+let token = "EAADujaO0AlkBAJYd5Si2aWeDFrV2yVRhs7AgZAWoV4UpBLJQsO1EhBMi4fyBnJqZCxQvbZBve6KTiy9ZB2risnVXdR5TUO0fiUOGPkdfeMNtOoQhYwcY92t1z1ioEhq35cFRh03oZC8Tc7IuE5ZAt0xDTWJEhpIrWUUeF0Mak2hgZDZD"
 // Facebook, security thing
 app.get('/webhook/', function(req, res){ 
     if (req.query['hub.verify_token'] === "nk1493") { 
