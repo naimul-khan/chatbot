@@ -22,4 +22,13 @@ app.get('/', function(req, res) {
 })
 // Facebook, security thing
 app.get('/webhook/', function(req, res){ 
+    if (req.query['hub.verify_token'] === "nk1493") { 
+        res.send(req.query['hub.challenge'])
+    }
+    res.send("Wrong token")
+})
+
+// start the server
+app.listen(app.get('port'), function(){
+    console.log("running: port")
 })
