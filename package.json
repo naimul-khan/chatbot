@@ -4,7 +4,8 @@
   "description": "test chatbot",
   "main": "index.js",
   "dependencies": {
-    "check-node-version": "^2.1.0"
+    "check-node-version": "^2.1.0",
+    "express": "^4.15.4"
   },
   "devDependencies": {},
   "scripts": {
