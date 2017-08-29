@@ -1,0 +1,23 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "test chatbot",
+  "main": "index.js",
+  "dependencies": {
+    "check-node-version": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naimul-khan/chatbot.git"
+  },
+  "author": "naimul_khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naimul-khan/chatbot/issues"
+  },
+  "homepage": "https://github.com/naimul-khan/chatbot#readme"
+}
